@@ -26,7 +26,7 @@ while True:
     quantidade = float(input("Qual é a quantidade: "))
     
     if quantidade >= estoque:
-        print("A quantidade excede o estoque.\n")
+        print(f"A quantidade total do nosso estoque é {estoque} escolha uma quantidade igual ou menor.\n")
         continue
 
     valor_produto = tabela[produto][0]
