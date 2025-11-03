@@ -5,7 +5,8 @@ class Canal:
         self.inscritos = inscritos
 
     def increver(self, quantidade=1):
-        self.inscritos += quantidade    
+        self.inscritos += quantidade 
+           
 
 canal_lancode = Canal('Lan Code', 'Codigos e Gatos', 34000)
 canal_guanabara = Canal('Curso em Video', 'Paixẽo por ensinar', 2500000)
